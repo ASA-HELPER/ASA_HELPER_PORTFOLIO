@@ -1,0 +1,32 @@
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: flex;
+  vertical-align: middle;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.imgtoggle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  vertical-align: middle;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.nav-item {
+  color: red;
+  text-align: center;
+  margin-left: 25px;
+}
+
+.nav-link {
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 20px;
+}

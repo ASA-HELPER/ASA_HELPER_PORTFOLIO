@@ -1,0 +1,40 @@
+.home-container {
+  height: 300px;
+  color: white;
+}
+
+.home-content h1 {
+  padding: 5px;
+  padding-top: 80px;
+}
+
+.home-content h2 {
+  color: black;
+  padding: 5px;
+}
+
+.home-buttons {
+  margin-left: 10px;
+}
+
+.home-buttons .btn-hire,
+.btn-cv {
+  color: red;
+  background-color: black;
+  width: 150px;
+  margin: 5px;
+}
+
+.btn-cv:hover {
+  border: 3px solid black;
+  color: black;
+  background-color: red;
+  transition: 1s;
+}
+
+.btn-hire:hover {
+  border: 3px solid black;
+  color: black;
+  background-color: red;
+  transition: 1s;
+}

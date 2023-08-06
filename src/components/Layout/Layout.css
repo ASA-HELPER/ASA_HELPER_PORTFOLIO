@@ -1,17 +1,18 @@
 .sidebar-section {
   display: flex;
+  background-color: red;
 }
 
 .sidebar {
   height: 100vh;
-  background-color: #5a37c3;
+  background-color: black;
   width: 90px;
 }
 
 .sidebar-toggle {
   width: 230px;
   height: 100vh;
-  background-color: #5a37c3;
+  background-color: black;
 }
 
 .sidebar-toggle-icons {
@@ -22,7 +23,7 @@
 }
 
 .sidebar-toggle-icons p svg {
-  background-color: #eb2632;
-  color: #5a37c3;
+  background-color: red;
+  color: black;
   margin-top: 30px;
 }

@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import Home from '../../pages/Home/Home'
 import {FaAngleDoubleLeft,FaAngleDoubleRight} from 'react-icons/fa';
 import './Layout.css'
+import Menus from '../../Menus/Menus';
 
 const Layout = () => {
     const [toggle,setToggle] = useState(false)
@@ -13,6 +14,7 @@ const Layout = () => {
         <div className='sidebar-section'>
             <div className={toggle?'sidebar':'sidebar-toggle'}>
                 <div className='sidebar-toggle-icons'>
+                    <Menus toggle={toggle}/>
                     <p>
                         {
                             toggle?(
